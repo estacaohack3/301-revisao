@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+section{
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+
+section img{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s ease-in;
+    transform: translateX(-100%) scale(0);
+}
+
+.acordeao{
+    width: 30%;
+    overflow: hidden;
+}
+
+.acordeao h4{
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(43, 43, 170);
+    font-weight: bold;
+    color: white;
+}
+
+.acordeao p{
+    margin: 0;
+    font-size: 20px;
+    transition: 1s;
+    text-align: justify;
+    transform: translateY(-200%);
+}
